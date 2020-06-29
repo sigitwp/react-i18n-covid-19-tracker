@@ -20,7 +20,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, isId, t }) 
 
     return (
         <div className={styles.container}>
-            <div>
+            <div className={styles.box_updated}>
                 <Typography paragraph variant="body2" color="textSecondary">
                     <i>{t('status.lastUpdate')}:
                         <b>
