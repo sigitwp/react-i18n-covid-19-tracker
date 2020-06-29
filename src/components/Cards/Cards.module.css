@@ -7,41 +7,29 @@
 }
 
 .infected {
-    /* border-bottom: 10px solid rgba(0, 0, 255, 0.5); */
-    /* border-bottom: 10px solid rgba(255, 127, 14, 1);  */
     border-bottom: 10px solid #ffa502;
-    /* rgb(255, 127, 14) */
 }
 
 .recovered {
-    /* border-bottom: 10px solid rgba(0, 255, 0, 0.5); */
-    /* border-bottom: 10px solid rgba(44, 160, 44, 1); */
     border-bottom: 10px solid green;
-    /* rgb(44, 160, 44) */
 }
 
 .deaths {
-    /* border-bottom: 10px solid rgba(255, 0, 0, 0.5); */
-    /* border-bottom: 10px solid rgba(214, 39, 40, 1); */
     border-bottom: 10px solid red;
-    /* rgb(214, 39, 40) */
 }
 
 .confirmed_value {
     font-weight: 800 !important;
-    /* color: rgba(255, 127, 14, 1); */
     color: #ffa502;
 }
 
 .recovered_value {
     font-weight: 800 !important;
-    /* color: rgb(44, 160, 44, 1); */
     color: green;
 }
 
 .deaths_value {
     font-weight: 800 !important;
-    /* color: rgba(214, 39, 40, 1); */
     color: red;
 }
 
