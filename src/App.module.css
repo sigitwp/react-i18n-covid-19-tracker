@@ -9,9 +9,15 @@ body {
     flex-direction: column;
 }
 
+.title {
+    text-align: center;
+    color: #21409A;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
 .image {
     width: 370px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 @media (max-width: 770px) {

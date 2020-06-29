@@ -1,4 +1,10 @@
 .formControl {
-    width: 30%;
-    margin-bottom: 30px !important;
+    width: 60%;
+    margin-bottom: 0px !important;
+}
+
+.box_select {
+    color: #21409A !important;
+    font-weight: 500 !important;
+    text-align-last: center;
 }

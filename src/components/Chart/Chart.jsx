@@ -10,7 +10,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     useEffect(() => {
         const fetchAPI = async () => {
             const initialDailyData = await fetchDailyData();
-            console.log("#initialDailyData: ", initialDailyData);
             setDailyData(initialDailyData);
         }
 
@@ -25,8 +24,8 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                 labels: dailyData.map(({ date }) => date),
                 datasets: [{
                     data: dailyData.map(({ confirmed }) => confirmed),
-                    label: "infected",
-                    borderColor: "#3333ff",
+                    label: "Confirmed",
+                    borderColor: "#ffa502",
                     fill: true,
                 }, {
                     data: dailyData.map(({ deaths }) => deaths),
@@ -45,13 +44,13 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         ? (
             <Bar 
                 data={{
-                    labels: ["Infected", "Recovered", "Deaths"],
+                    labels: ["Confirmed", "Recovered", "Deaths"],
                     datasets: [{
                         label: "People",
                         backgroundColor: [
-                            "rgba(0, 0, 255, 0.5)",
-                            "rgba(0, 255, 0, 0.5)",
-                            "rgba(255, 0, 0, 0.5)",
+                            "#ffa502",
+                            "green",
+                            "red",
                         ],
                         data: [confirmed.value, recovered.value, deaths.value]
                     }]

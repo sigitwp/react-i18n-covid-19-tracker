@@ -1,13 +1,13 @@
 {
     "welcome": {
-        "title": "Selamat Datang di Pemantauan Data"
+        "title": "Pemantauan Data"
     },
     "status": {
         "confirmed": "Terkonfirmasi",
         "confirmed-desc": "Jumlah kasus positif COVID-19",
         "recovered": "Sembuh",
         "recovered-desc": "Jumlah sembuh dari COVID-19",
-        "lastUpdate": "Update Terakhir",
+        "lastUpdate": "Update Terkini",
         "deaths": "Meninggal",
         "deaths-desc": "Jumlah kematian yang disebabkan oleh COVID-19"
     }
