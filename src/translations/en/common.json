@@ -1,0 +1,14 @@
+{
+    "welcome": {
+        "title": "Welcome to Monitoring Data of"
+    },
+    "status": {
+        "confirmed": "Confirmed",
+        "confirmed-desc": "Number of active cases of COVID-19",
+        "recovered": "Recovered",
+        "recovered-desc": "Number of recoveries from COVID-19",
+        "lastUpdate": "Last Update",
+        "deaths": "Deaths",
+        "deaths-desc": "Number of deaths caused by COVID-19"
+    }
+}
