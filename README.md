@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screen-record-react-i18n-covid-19-tracker](https://user-images.githubusercontent.com/6770027/86076140-c974aa80-bab3-11ea-9ed9-99de5ab50d55.gif)
+
+## Sources
+
+Data source API from [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api)
+
+Thank you for [JavaScript Mastery](https://youtu.be/khJlrj3Y6Ls) video tutorial.
 
 ## Available Scripts
 
