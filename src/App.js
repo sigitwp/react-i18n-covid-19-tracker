@@ -43,7 +43,7 @@ class App extends React.Component {
                 </h1>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Cards data={data} isId={isId} t={this.props.t} />
-                <Chart data={data} country={country} />
+                <Chart data={data} country={country} t={this.props.t} />
             </div>
         )
     }

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { fetchDailyData } from "../../api";
 import { Line, Bar } from "react-chartjs-2";
+import { withTranslation } from 'react-i18next';
 
 import styles from "./Chart.module.css";
 
-const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
+const Chart = ({ data: { confirmed, recovered, deaths }, country, t }) => {
     const [dailyData, setDailyData] = useState([]);
 
     useEffect(() => {
@@ -24,12 +25,12 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                 labels: dailyData.map(({ date }) => date),
                 datasets: [{
                     data: dailyData.map(({ confirmed }) => confirmed),
-                    label: "Confirmed",
+                    label: t('status.confirmed'),
                     borderColor: "#ffa502",
                     fill: true,
                 }, {
                     data: dailyData.map(({ deaths }) => deaths),
-                    label: "Deaths",
+                    label: t('status.deaths'),
                     borderColor: "red",
                     backgroundColor: "rgba(255, 0, 0, 0.5)",
                     fill: true,
@@ -44,9 +45,9 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         ? (
             <Bar 
                 data={{
-                    labels: ["Confirmed", "Recovered", "Deaths"],
+                    labels: [t('status.confirmed'), t('status.recovered'), t('status.deaths')],
                     datasets: [{
-                        label: "People",
+                        label: t('status.people'),
                         backgroundColor: [
                             "#ffa502",
                             "green",
@@ -57,7 +58,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                 }}
                 options={{
                     legend: { display: false },
-                    title: { display: true, text: `Current state in ${country}` },
+                    title: { display: true, text: `${t('status.current-state')} ${country}` },
                 }}
             />
         ) : null
@@ -70,4 +71,4 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     )
 }
 
-export default Chart;
+export default withTranslation('common')(Chart);

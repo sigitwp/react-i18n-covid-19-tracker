@@ -9,6 +9,8 @@
         "recovered-desc": "Number of recoveries from COVID-19",
         "lastUpdate": "Last Updated",
         "deaths": "Deaths",
-        "deaths-desc": "Number of deaths caused by COVID-19"
+        "deaths-desc": "Number of deaths caused by COVID-19",
+        "current-state": "Current state in",
+        "people": "People"
     }
 }

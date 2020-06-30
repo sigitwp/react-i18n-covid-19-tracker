@@ -9,6 +9,8 @@
         "recovered-desc": "Jumlah sembuh dari COVID-19",
         "lastUpdate": "Update Terkini",
         "deaths": "Meninggal",
-        "deaths-desc": "Jumlah kematian yang disebabkan oleh COVID-19"
+        "deaths-desc": "Jumlah kematian yang disebabkan oleh COVID-19",
+        "current-state": "Keadaan saat ini di",
+        "people": "Orang"
     }
 }
