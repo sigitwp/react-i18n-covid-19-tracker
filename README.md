@@ -1,4 +1,4 @@
-![screen-record-react-i18n-covid-19-tracker](https://user-images.githubusercontent.com/6770027/86076140-c974aa80-bab3-11ea-9ed9-99de5ab50d55.gif)
+![react-i18n-covid-19-tracker](https://user-images.githubusercontent.com/6770027/86077972-33db1a00-bab7-11ea-96c8-ccc2c54bfce0.gif)
 
 ## Sources
 
