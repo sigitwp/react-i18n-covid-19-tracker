@@ -1,5 +1,7 @@
 ![react-i18n-covid-19-tracker](https://user-images.githubusercontent.com/6770027/86077972-33db1a00-bab7-11ea-96c8-ccc2c54bfce0.gif)
 
+- [Demo in Netlify](https://react-i18n-covid-19-tracker.netlify.app/)
+
 ## Sources
 
 Data source API from [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api)
